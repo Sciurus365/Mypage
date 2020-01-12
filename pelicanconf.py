@@ -12,7 +12,8 @@ TIMEZONE = 'Asia/Shanghai'
 
 DEFAULT_LANG = 'en'
 
-THEME = 'blue-penguin'
+# THEME = 'blue-penguin'
+THEME = 'pelican-blue'
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -28,8 +29,15 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
          ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+#SOCIAL = (('You can add links in your config file', '#'),
+#          ('Another social link', '#'),)
+#SOCIAL = (('ocrid', 'https://orcid.org/0000-0003-3421-8457'),
+#		  ('researchgate', 'https://www.researchgate.net/profile/Jingmeng_Cui'),
+#		  ('linkedin', 'https://www.linkedin.com/in/cuijm'),
+#         ('github', 'https://github.com/Sciurus365'),
+#         ('twitter', 'https://twitter.com/CUI_Jingmeng'),
+#         )
+
 
 DEFAULT_PAGINATION = 10
 
@@ -64,6 +72,18 @@ MENU_INTERNAL_PAGES = (
     ('Categories', CATEGORIES_URL, CATEGORIES_SAVE_AS),
 )
 # additional menu items
-MENUITEMS = (
-    ('GitHub', 'https://github.com/Sciurus365'),
-)
+#MENUITEMS = (
+#    ('GitHub', 'https://github.com/Sciurus365'),
+# )
+
+# pelican-blue settings
+SIDEBAR_DIGEST = 'Research Master Student, Radboud University'
+
+FAVICON = 'url-to-favicon'
+
+# DISPLAY_PAGES_ON_MENU = True
+
+# TWITTER_USERNAME = 'CUI_Jingmeng'
+
+MENUITEMS = (('Home', 'https://sciurus365.github.io'),
+			)

@@ -1,10 +1,10 @@
-PY?=python3
+PY?=python
 PELICAN?=pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
-OUTPUTDIR=$(BASEDIR)/output/Sciurus365.github.io
+OUTPUTDIR=$(BASEDIR)/output/sciurus365.github.io
 CONFFILE=$(BASEDIR)/pelicanconf.py
 PUBLISHCONF=$(BASEDIR)/publishconf.py
 
